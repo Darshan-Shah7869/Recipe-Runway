@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="../dist/css/style.css">  
+    <title>Recipe Runway</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-box">
+                <img src="./img/WrHetBPORv.jpg" alt="logo-img" class="logo">
+                <div class="logo-text">Recipe Runway</div> 
+            </div>
+            <div class="search-feild">
+                 
+                <input type="text" id="search" placeholder="Search over 1,000,000 recipes" class="search-input">
+                <button class="search-btn-box">
+                    <label for="search" class="search-btn">
+                        <span class="search-icon-box">
+                            <img src="./img/iconSVG/SVG/magnifying-glass.svg" alt="" class="search-icon">     
+                        </span>
+                        search
+                     </label>
+                </button>
+            </div>
+            <div class="like-box">
+                
+                  <img src="./img/iconSVG2/SVG/heart.svg" class="like-icon" alt=""> 
+                
+            </div>
+            <div class="like-panel">
+
+                
+                    
+                <!-- <div class="recipe-list-item">
+                    <a href="#" class="recipe-list-link">
+                        <div class="recipe-img-box">
+                            <img src="./img/test-1.jpg" alt="recipe-1" class="recipe-img">
+                        </div>
+                        <div class="recipe-details">
+                            <div class="recipe-name">
+                                Pasta with tomato...
+                            </div>
+                            <div class="recipe-from">
+                                The pioneer woman
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="recipe-list-item">
+                    <a href="#" class="recipe-list-link">
+                        <div class="recipe-img-box">
+                            <img src="./img/test-2.jpg" alt="recipe-2" class="recipe-img">
+                        </div>
+                        <div class="recipe-details">
+                            <div class="recipe-name">
+                                Pasta salad with...
+                            </div>
+                            <div class="recipe-from">
+                                Spicy Perspective
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div> -->
+        </header>
+        <main>
+            <div class="recipe-list-box">
+
+                
+                <!-- <div class="recipe-list-item active" id="">
+                    <a href="#" class="recipe-list-link">
+                        <div class="recipe-img-box">
+                            <img src="./img/test-1.jpg" alt="recipe-1" class="recipe-img">
+                        </div>
+                        <div class="recipe-details">
+                            <div class="recipe-name">
+                                Pasta with tomato...
+                            </div>
+                            <div class="recipe-from">
+                                The pioneer woman
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="recipe-list-item" id="">
+                    <a href="#" class="recipe-list-link">
+                        <div class="recipe-img-box">
+                            <img src="./img/test-2.jpg" alt="recipe-2" class="recipe-img">
+                        </div>
+                        <div class="recipe-details">
+                            <div class="recipe-name">
+                                Pasta salad with...
+                            </div>
+                            <div class="recipe-from">
+                                Spicy Perspective
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="recipe-list-item" id="">
+                    <a href="#" class="recipe-list-link">
+                        <div class="recipe-img-box">
+                            <img src="./img/test-3.jpg" alt="recipe-1" class="recipe-img">
+                        </div>
+                        <div class="recipe-details">
+                            <div class="recipe-name">
+                                homemade tomato...
+                            </div>
+                            <div class="recipe-from">
+                                all recipes
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="recipe-list-item" id="">
+                    <a href="#" class="recipe-list-link">
+                        <div class="recipe-img-box">
+                            <img src="./img/test-4.jpg" alt="recipe-1" class="recipe-img">
+                        </div>
+                        <div class="recipe-details">
+                            <div class="recipe-name">
+                                pasta with tomato...
+                            </div>
+                            <div class="recipe-from">
+                                The pioneer woman
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="recipe-list-item" id="">
+                    <a href="#" class="recipe-list-link">
+                        <div class="recipe-img-box">
+                            <img src="./img/test-5.jpg" alt="recipe-1" class="recipe-img">
+                        </div>
+                        <div class="recipe-details">
+                            <div class="recipe-name">
+                                greek pasta with...
+                            </div>
+                            <div class="recipe-from">
+                                chow
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="recipe-list-item" id="">
+                    <a href="#" class="recipe-list-link">
+                        <div class="recipe-img-box">
+                            <img src="./img/test-6.jpg" alt="recipe-1" class="recipe-img">
+                        </div>
+                        <div class="recipe-details">
+                            <div class="recipe-name">
+                                cherry tomato,kale...
+                            </div>
+                            <div class="recipe-from">
+                               bbc good food
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="recipe-list-item" id="">
+                    <a href="#" class="recipe-list-link">
+                        <div class="recipe-img-box">
+                            <img src="./img/test-7.jpg" alt="recipe-1" class="recipe-img">
+                        </div>
+                        <div class="recipe-details">
+                            <div class="recipe-name">
+                                pasta with fresh...
+                            </div>
+                            <div class="recipe-from">
+                               chow
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="recipe-list-item" id="">
+                    <a href="#" class="recipe-list-link">
+                        <div class="recipe-img-box">
+                            <img src="./img/test-8.jpg" alt="recipe-1" class="recipe-img">
+                        </div>
+                        <div class="recipe-details">
+                            <div class="recipe-name">
+                                buttery tomato pasta...
+                            </div>
+                            <div class="recipe-from">
+                                simply recipes
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="recipe-list-item" id="">
+                    <a href="#" class="recipe-list-link">
+                        <div class="recipe-img-box">
+                            <img src="./img/test-9.jpg" alt="recipe-1" class="recipe-img">
+                        </div>
+                        <div class="recipe-details">
+                            <div class="recipe-name">
+                               pesto pasta salad...
+                            </div>
+                            <div class="recipe-from">
+                                eats well with others
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="recipe-list-item" id="">
+                    <a href="#" class="recipe-list-link">
+                        <div class="recipe-img-box">
+                            <img src="./img/test-10.jpg" alt="recipe-1" class="recipe-img">
+                        </div>
+                        <div class="recipe-details">
+                            <div class="recipe-name">
+                                Pasta with roasted...
+                            </div>
+                            <div class="recipe-from">
+                                two peas and their pod
+                            </div>
+                        </div>
+                    </a>
+                </div> -->
+
+                <!-- <div class="navigation-page">  
+                    
+                    <div class="previous page-btn" data-goto="1">
+                       <a href="#" class="navigation-link">
+                        &larr; &nbsp; page-1 
+                       </a>
+                    </div>
+                    <div class="next page-btn" data-goto="3">
+                        <a href="#" class="navigation-link">
+                            page-3 &nbsp; &rarr;
+                        </a>
+                    </div>
+                    
+                </div> -->
+
+            </div>
+            
+            
+            <div class="recipe-main-box">
+                <div class="recipe-main-img-box">
+                    <img src="./img/test-1.jpg" alt="" class="recipe-main-img">
+                    <h1 class="recipe-main-title-box">
+                        <span class="recipe-main-title">
+                            Recipe Runway
+                        </span>
+                    </h1>
+                </div>
+               
+                <div class="recipe-main-detail-box">
+                   
+                    <!-- 
+                        
+                    <div class="recipe-main-time">
+                        <img src="./img/iconSVG/SVG/stopwatch.svg" class="icon" alt=""> 
+                        45 minutes
+                    </div>
+                    <div class="recipe-main-servings">
+                        <img src="./img/iconSVG/SVG/man.svg" class="icon" alt=""> 
+                        4 servings
+                        <div class="inc-dec-box">
+                            <img src="./img/iconSVG4/SVG/circle-with-plus.svg" alt="" class="plus">
+                            <img src="./img/iconSVG4/SVG/circle-with-minus.svg" alt="" class="minus">
+                        </div>
+                    </div>
+                    <input type="checkbox" name="like" id="like-check" class="like-check">
+                    <label for="like-check" class="recipe-main-like-box">
+                        <img src="./img/iconSVG2/SVG/heart-outlined.svg" alt="" class="icon-1">
+                        <img src="./img/iconSVG2/SVG/heart-sec.svg" alt="" class="icon-2"> 
+                    </label> 
+                
+                -->
+                </div>
+                <ul class="recipe-main-ingredients-box">
+
+                    <li class="recipe-main-ingredients"> 
+                        <img src="./img/iconSVG/SVG/checkbox-checked.svg" alt="" class="icon"> Thousands of recipes 
+                    </li>
+
+                    <li class="recipe-main-ingredients">
+                        <img src="./img/iconSVG/SVG/checkbox-checked.svg" alt="" class="icon">20000+ positive response
+                    </li>
+                    
+                    <li class="recipe-main-ingredients">
+                        <img src="./img/iconSVG/SVG/checkbox-checked.svg" alt="" class="icon">Top chef's of the world
+                    </li>
+                    
+                    <li class="recipe-main-ingredients">
+                        <img src="./img/iconSVG/SVG/checkbox-checked.svg" alt="" class="icon">Make your shopping list 
+                    </li>
+                        
+                    <!-- <li class="recipe-main-ingredients"> 
+                        <img src="./img/iconSVG/SVG/checkbox-checked.svg" alt="" class="icon">100 g pasta
+                    </li>
+
+                    <li class="recipe-main-ingredients">
+                        <img src="./img/iconSVG/SVG/checkbox-checked.svg" alt="" class="icon">1 can of tomatoes, whole or crushed
+                    </li>
+                    
+                    <li class="recipe-main-ingredients">
+                        <img src="./img/iconSVG/SVG/checkbox-checked.svg" alt="" class="icon">1/2 cup grated parmesan cheese
+                    </li>
+                    
+                    <li class="recipe-main-ingredients">
+                        <img src="./img/iconSVG/SVG/checkbox-checked.svg" alt="" class="icon">1/2 cup ricotta cheese
+                    </li>
+                        
+                    <li class="recipe-main-ingredients">
+                        <img src="./img/iconSVG/SVG/checkbox-checked.svg" alt="" class="icon">1 can tuna packed in olive oil
+                    </li>
+                    
+                    <li class="recipe-main-ingredients">
+                        <img src="./img/iconSVG/SVG/checkbox-checked.svg" alt="" class="icon">1/4 cup fresh basil, chopped or torn
+                    </li> -->
+
+                </ul>
+               
+                    <!-- <button class="shopping-list-btn">
+                        <img src="./img/iconSVG/SVG/shopping-cart.svg" alt="" class="icon">    
+                        Add to shopping list
+                    </button> -->
+
+                    <div class="main-bottom">
+
+                        <h2 class="main-bottom-heading">
+                            Customer Reviews
+                        </h2>
+
+                        <div class="review-box">
+                            <div class="review">
+                                <div class="customer-box">
+                                    <img src="./img/Alexa roberts.jpg" alt="" class="customer-img">
+                                </div>
+                                <div class="customer-detail">
+                                    <h3 class="customer-name">Alexa Roberts</h3>
+                                    <p class="customer-text">
+                                        I am just in love with Recipe Runway. It has so many recipes and they are all easy to make. I like to try and make new recipes for fun and this app helps me a lot. It is just amazing. 
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="review">
+                                <div class="customer-box">
+                                    <img src="./img/Randall Martin.jpg" alt="" class="customer-img">
+                                </div>
+                                <div class="customer-detail">
+                                    <h3 class="customer-name">Randall Martin</h3>
+                                    <p class="customer-text">
+                                        I really like this app. It helps you find any recipe you want and it helps you make the shopping list for ingredients. I am a busy man so it helps me a lot and the recipes are just amazing. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                            
+                        <!--
+                            
+                        <h2 class="main-bottom-heading">
+                            How to cook it 
+                        </h2>
+                        <p class="main-bottom-text">
+                            The recipe was carefully designed and tested by <a href="#" class="cite-name">The pioneer woman</a>. Please checkout directions at their website.
+                        </p>
+                        <a href="#" target="_blank" class="direction-link">
+                            <button class="main-bottom-btn">
+                                Direction <span class="arrow">&rarr;</span>
+                            </button>
+                        </a>   
+                    
+                    -->
+                    
+                   
+                    </div>
+                 
+
+            </div>
+            
+            
+            <div class="shopping-list-box">
+
+                <div class="shopping-main">
+                    <h2 class="shopping-list-heading">
+                        My shopping list
+                    </h2>
+    
+                    <ul class="shopping-list">
+    
+                        <!-- <li class="shopping-list-item">
+                           <div class="shopping-list-count">
+                                <input type="number" name="gram" id="gram" value="500" step="100" class="shopping-list-number">
+                                <p class="shopping-list-unit">g</p>
+                           </div>
+                           <p class="shopping-list-description">
+                               Pasta
+                           </p>
+                           <button class="shopping-list-btn">
+                                <img src="./img/iconSVG2/SVG/circle-with-cross.svg" alt="" class="icon">
+                           </button>
+                        </li>
+    
+                        <li class="shopping-list-item">
+                            <div class="shopping-list-count">
+                                 <input type="number" name="gram" id="gram" value="0.7" step="0.1" class="shopping-list-number">
+                                 <p class="shopping-list-unit">cup</p>
+                            </div>
+                            <p class="shopping-list-description">
+                                Ricotta cheese
+                            </p>
+                            <button class="shopping-list-btn">
+                                <img src="./img/iconSVG2/SVG/circle-with-cross.svg" alt="" class="icon">
+                            </button>
+                         </li>
+    
+                         <li class="shopping-list-item">
+                            <div class="shopping-list-count">
+                                 <input type="number" name="gram" id="gram" value="3.5" step="0.5" class="shopping-list-number">
+                                 <p class="shopping-list-unit">tbsp</p>
+                            </div>
+                            <p class="shopping-list-description">
+                                Toasted almond slices
+                            </p>
+                            <button class="shopping-list-btn">
+                                <img src="./img/iconSVG2/SVG/circle-with-cross.svg" alt="" class="icon">
+                            </button>
+                         </li>
+    
+                         <li class="shopping-list-item">
+                            <div class="shopping-list-count">
+                                 <input type="number" name="gram" id="gram" value="0.5" step="0.5" class="shopping-list-number">
+                                 <p class="shopping-list-unit">tbsp</p>
+                            </div>
+                            <p class="shopping-list-description">
+                                Sea salt
+                            </p>
+                            <button class="shopping-list-btn">
+                                <img src="./img/iconSVG2/SVG/circle-with-cross.svg" alt="" class="icon">
+                            </button>
+                         </li>
+    
+                         <li class="shopping-list-item">
+                            <div class="shopping-list-count">
+                                 <input type="number" name="gram" id="gram" value="0.25" step="0.25" class="shopping-list-number">
+                                 <p class="shopping-list-unit">cup</p>
+                            </div>
+                            <p class="shopping-list-description">
+                                Minced green onions
+                            </p>
+                            <button class="shopping-list-btn">
+                                <img src="./img/iconSVG2/SVG/circle-with-cross.svg" alt="" class="icon">
+                            </button>
+                         </li>
+    
+                         <li class="shopping-list-item">
+                            <div class="shopping-list-count">
+                                 <input type="number" name="gram" id="gram" value="45" step="5" class="shopping-list-number">
+                                 <p class="shopping-list-unit">g</p>
+                            </div>
+                            <p class="shopping-list-description">
+                                Sesame seeds
+                            </p>
+                            <button class="shopping-list-btn">
+                                <img src="./img/iconSVG2/SVG/circle-with-cross.svg" alt="" class="icon">
+                            </button>
+                         </li> -->
+                       
+                    </ul>
+                </div>
+
+                <footer>
+                    &copy; by Darshan Shah. Powered by <cite><a href="https://spoonacular.com/food-api" target="_blank">spoonacular.com</a></cite>.
+                </footer>
+
+                
+
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+    <script src="../dist/js/bundle.js"></script>
+</body>
+</html>
